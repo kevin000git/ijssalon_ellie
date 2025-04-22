@@ -1,0 +1,24 @@
+
+str1 = "waterijsje"
+str2 = "magnum"
+str3 = "speculoosijsje"
+
+prijs_lijst = str1 + " " + str2
+print (prijs_lijst)
+
+a = "Maandag"
+b = "Dinsdag"
+c = "Woensdag"
+d = "Donderdag"
+print (f"eerst komt {a}, dan komt {b}, daarna is mijn favorite dag {c}, daarna {d}")
+
+# een print (f"een ijsje met 2 bolletjes kost {prijs}.")
+# dit is minder fout gevoelig
+
+
+print("Mijn Voorbeeld".swapcase())
+print("Mijn Voorbeeld".lower())
+print ("Mijn Voorbeeld".upper())
+print("Mijn Voorbeeld".split(" "))
+print("Mijn Voorbeeld".index("Voorbeeld"))
+print("Mijn Voorbeeld".replace("Voorbeeld", "Vervanging"))
